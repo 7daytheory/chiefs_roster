@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+function Card() {
+    return (
+      <div>
+        <h2>Patrick Mahomes</h2>
+        <img src="images/thisimage.png"
+        alt="Patrick Mahomes"
+        />
+        <p>123 456 789</p>
+        <p>height</p>
+        <p>Weight</p>
+      </div>
+    )
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+          <Card />
+          <Card />
       </header>
-    </div>
   );
 }
 
