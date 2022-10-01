@@ -1,12 +1,12 @@
 import './Card.css';
+import chiefs from '../../chiefs.js';
 
 function Card(props) {
-  console.log(props);
+    console.log(chiefs)
     return (
       <div className="card">
         <div className="top">
         <h2 className="name">{props.name}</h2>
-        <p className="num">#{props.num}</p>
         <p className="position">{props.position}</p>
         <img
           className="player_image"
@@ -14,10 +14,14 @@ function Card(props) {
           alt={props.name}
         />
         </div>
-        <p className="height">{props.height}</p>
-        <p className="weight">{props.weight}</p>
-        <p className="exp">{props.exp}</p>
-        <p className="age">{props.age}</p>
+        <div className="bottom">
+        <h3 className="info">Player Info</h3>
+        <p className="height">Height : {props.height}</p>
+        <p className="weight">Weight : {props.weight}</p>
+        <p className="exp">{props.exp} Years Experience</p>
+        <p className="age">Age : {props.age} years</p>
+        <p className="num">#{props.num}</p>
+        </div>
       </div>
     )
 }

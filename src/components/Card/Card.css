@@ -7,22 +7,38 @@
   height: 200px;
   box-shadow: 0 2px 5px #ccc;
   text-align: left;
+  background: #FFF;
 }
 
 .top {
-  border-radius: 25px 25px 0 0;
+  border-radius: 10px 10px 0 0;
   height: 110px;
   width: 100%;
-  background-color: red;
+  background-color: #E31836;
   position: absolute;
   top: 0;
   left: 0;
   display: flex;
 }
 
+.bottom {
+  width: 100%;
+  position: absolute;
+  top: 100px;
+}
+
+.bottom p {
+  margin-top: 0;
+  line-height: 5px;
+}
+
+.bottom h2 {
+  margin-bottom: 0px;
+}
+
 .name {
   font-size: 2em;
-  color: #2d3436;
+  color: #FFF;
   display: flex;
   flex: 1;
   margin: 10px 20px 0;
@@ -34,28 +50,29 @@
 
 .player_image {
   border-radius: 50%;
-  border: 7px solid #FFF;
+  border: 7px solid #FFB81C;
   width: 120px;
   height: 120px;
 }
 
-.position {
-  position: absolute;
-  right: 140px;
-  margin-top: 5px;
-  font-size: 2em;
-  color: #FFF;
+.num {
+  font-size: 1.75em;
+  margin-right: 25px;
+  color: #FFB81C;
   font-weight: bold;
   display: flex;
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
 }
 
-.num {
+.position {
   position: absolute;
   right: 160px;
   margin-top: 5px;
   top: 50px;
   font-size: 2em;
-  color: #FFF;
+  color: #FFB81C;
   font-weight: bold;
   display: flex;
 }
