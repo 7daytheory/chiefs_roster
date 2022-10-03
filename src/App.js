@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
       <header>
-        <h2>Player List</h2>
+        <h2 className="center">Player List</h2>
       </header>
       <Players />
     </div>
