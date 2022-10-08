@@ -1,4 +1,5 @@
 import './Card.css';
+import Avatar from '../Avatar/Avatar';
 
 function Card(props) {
     return (
@@ -6,11 +7,10 @@ function Card(props) {
         <div className="top">
         <h2 className="name">{props.name}</h2>
         <p className="position">{props.position}</p>
-        <img
-          className="player_image"
-          src={props.url}
+          <Avatar
+          url={props.url}
           alt={props.name}
-        />
+          />
         </div>
         <div className="bottom">
         <h3 className="info">Player Info</h3>
