@@ -49,6 +49,7 @@
 }
 
 .player_image {
+  background: #FFF;
   border-radius: 50%;
   border: 7px solid #FFB81C;
   width: 120px;

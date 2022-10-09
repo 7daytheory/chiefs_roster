@@ -9,7 +9,7 @@ function createCard(chiefs) {
   return (
     <Card
     key={chiefs.PlayerID}
-    url={patrickMahomes}
+    url={chiefs.PhotoUrl}
     name={chiefs.FirstName}
     lastName={chiefs.LastName}
     position={chiefs.Position}
