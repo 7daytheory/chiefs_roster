@@ -55,14 +55,14 @@ function Testing() {
   //
   // console.log(findNum);
   //
-  // //**************** FindIndex - Find the index of the first item that matches the specified params
+  // //**************** FindIndex - Find the index of the first item that matches the condition
   // var findIndex = numbers.findIndex((num) => {
   //   return num > 10;
   // })
   //
   // console.log(findIndex);
 
-  
+
 
 }
 
