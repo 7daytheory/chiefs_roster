@@ -10,7 +10,7 @@ function createCard(chiefs) {
     name={chiefs.FirstName}
     lastName={chiefs.LastName}
     position={chiefs.Position}
-    num={chiefs.Number}
+    num={chiefs.Number ? chiefs.Number : 'N/A'}
     exp={chiefs.Experience}
     age={chiefs.Age}
     heightFeet={chiefs.HeightFeet}
