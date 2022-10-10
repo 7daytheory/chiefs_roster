@@ -1,8 +1,5 @@
 import Card from '../Card/Card';
 
-import patrickMahomes from '../../images/patrickMahomes.webp';
-import justinReid from '../../images/justinReid.webp';
-
 import chiefs from '../../chiefs.js';
 
 function createCard(chiefs) {
