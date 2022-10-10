@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className="center">
       <img
-        class="banner"
+        className="banner"
         src={banner}
         alt="Chiefs Banner"
         />
